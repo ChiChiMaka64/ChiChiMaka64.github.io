@@ -9,7 +9,7 @@ var config = {
   firebase.initializeApp(config);
   var database = firebase.database();
 
-  $("#button").on("click", function (e) {
+  var button=$("button").on("click", function (e) {
     e.preventDefault()
     console.log($(this).text());
     var name=$("#name").val().trim()
@@ -22,7 +22,7 @@ var config = {
         name:name,
         email:email,
         message:message,
-    })
+    });
   });
   database.ref().on("child_added", function (snapshot) {
     console.log(snapshot);
