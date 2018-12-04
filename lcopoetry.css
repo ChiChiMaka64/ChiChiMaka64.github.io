@@ -47,3 +47,13 @@ img.resize{
     max-height: 100px;
     float: absolute;
 }
+footer{
+    background-color: aquamarine;
+    color: blue;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
