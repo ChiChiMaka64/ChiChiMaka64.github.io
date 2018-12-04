@@ -8,8 +8,7 @@ var config = {
   };
   firebase.initializeApp(config);
   var database = firebase.database();
-
-  var button=$("button").on("click", function (e) {
+  $("button").on("click", function (e) {
     e.preventDefault()
     console.log($(this).text());
     var name=$("#name").val().trim()
