@@ -13,6 +13,9 @@ html, body{
     overflow: hidden;
     position: fixed;
 }
+.dropdown-menu{
+    position: relative;
+}
 .jumbotron{
     background: rgba(0, 0, 0, 0.4);
     color:aquamarine;
