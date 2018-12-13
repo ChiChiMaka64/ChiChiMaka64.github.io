@@ -5,7 +5,7 @@ html, body{
 .navbar{
     background-color: aquamarine;
     color: blue;
-    font-family: cursive;
+    font-family: 'Alfa Slab One', cursive;
     font-size: large;
     text-align: center;
     top: 0;
@@ -19,7 +19,7 @@ html, body{
 .jumbotron{
     background: rgba(0, 0, 0, 0.4);
     color:aquamarine;
-    font-family: cursive;
+    font-family: 'Alfa Slab One', cursive;
     font-size: large;
     text-align: center;
     padding-top: 5px;
@@ -28,11 +28,14 @@ html, body{
     padding-left: 5px; 
     margin: 200px;
     position: absolute;
+}
+i{  color: aquamarine;
+    font-size: xx-large;
 }
 .contact-form{
     background: rgba(0, 0, 0, 0.4);
     color:aquamarine;
-    font-family: cursive;
+    font-family: 'Alfa Slab One', cursive;
     font-size: large;
     text-align: center;
     padding-top: 5px;
@@ -42,8 +45,9 @@ html, body{
     margin: 200px;
     position: absolute;
 }
-a{
+a:hover, a:visited, a:active, a{
     font-size: xx-large;
+    color: blue;
 }
 img.resize{
     max-width: 100px;
@@ -53,7 +57,7 @@ img.resize{
 footer{
     background-color: aquamarine;
     color: blue;
-    font-family: cursive;
+    font-family: 'Alfa Slab One', cursive;
     font-size: large;
     text-align: center;
     width: 100%;
